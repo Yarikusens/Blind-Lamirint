@@ -21,8 +21,8 @@ namespace BlindLamirint
                 {
                     if (field.field[i,j] == FieldObjects.Player)
                     {
-                        this.x = j;
-                        this.y = i;
+                        this.x = i;
+                        this.y = j;
                     }
                 }
             }
